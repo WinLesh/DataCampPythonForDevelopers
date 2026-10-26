@@ -3,6 +3,12 @@
 #  The system must validate user input on the sign-up form before creating an account. 
 #The previous junior developer wrote some helper functions that validate the name, email, and password. Use these functions to register users, store their data, and implement some error handling! These have been imported into the workspace for you. They will be a great help to you when registering the user, but first you have to understand what the function does! Inspect the docstrings of each of the helper functions: `validate_name`, `validate_email` and `validate_password`.
 
+# Re-run this cell and examine the docstring of each function
+#from python_functions import validate_name, validate_email, validate_password, top_level_domains
+
+
+
+
 def validate_name(name):
     return isinstance(name, str) and len(name) >= 3
 
