@@ -1,2 +1,3 @@
 # DataCampPythonForDevelopers
-introduction to python
+Introduction to python for Developers
+covers inetermediary level practice for python development practice.
