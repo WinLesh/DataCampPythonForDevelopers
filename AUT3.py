@@ -31,7 +31,7 @@ else:
 # function as headers.    
 
 # Create a headers dictionary containing and set the API key using the correct key and value 
-headers = {'Authorization': '8apDFHaNJMxy8Kt818aa6b4a0ed0514b5d3'}
+headers = {'Authorization': 'Bearer 8apDFHaNJMxy8Kt818aa6b4a0ed0514b5d3'}
 # Add the headers dictionary to the requests.get() call using the correct function argument
 response = requests.get('http://localhost:3000/albums', headers=headers)
 
